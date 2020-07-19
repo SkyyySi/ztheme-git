@@ -5,5 +5,5 @@ Arch linux PKGBUILD files for ztheme
 ```
 git clone https://github.com/SkyyySi/ztheme-git.git
 cd ztheme-git
-makepkg -si
+makepkg -si   # You need to have base-devel installed
 ```
