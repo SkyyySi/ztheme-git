@@ -1,6 +1,6 @@
 # Maintainer: SkyyySi
 
-pkgname=ztheme-got
+pkgname=ztheme-git
 _pkgname=ztheme
 pkgrel=1
 pkgdesc='Instantly change your zsh theme.'
