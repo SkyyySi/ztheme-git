@@ -12,11 +12,6 @@ depends=('zsh')
 source=("ztheme::git+https://github.com/SkyyySi/ztheme.git#branch=master")
 md5sums=('SKIP')
 
-pkgver() {
-  cd "$srcdir/$_pkgname"
-  git describe --long --tags | sed 's/^v//;s/\([^-]*-g\)/r\1/;s/-/./g'
-}
-
 package() {
 	cd "$_pkgname"
 	sudo make DESTDIR="$pkgdir/" install
