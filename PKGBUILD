@@ -2,6 +2,7 @@
 
 pkgname=ztheme-git
 _pkgname=ztheme
+pkgver=2.0
 pkgrel=1
 pkgdesc='Instantly change your zsh theme.'
 arch=('any')
